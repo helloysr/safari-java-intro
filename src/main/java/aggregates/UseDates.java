@@ -37,6 +37,9 @@ public class UseDates {
 //    System.out.println("myBirth is " + myBirth.toString());
     System.out.println("myBirth is " + myBirth);
 
+    // NO NO NO! Strings ARE NOT dates...
+//    Date d1 = "Hello";
+    // BUT Holidays are "special kinds" of dates. But they ARE Date...
     Date h = new Holiday(1, 1, 2021, "new year's day");
     System.out.println("the holiday is " + h.toString());
   }
