@@ -17,6 +17,7 @@ public class Ex1 {
     System.out.println("The result of division is " + divided);
 
     String message = "Hello, I am a piece of text";
+    String oldMessage = message;
 //    String otherMessage = message.toUpperCase();
     message = message.toUpperCase();
     System.out.println(message);
